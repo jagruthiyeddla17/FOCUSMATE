@@ -1,19 +1,25 @@
-<<<<<< HEAD
+FocusMate – AI-Based Real-Time Attention & Study Support System
+  AI-powered virtual study assistant that tracks attention and enhances learning productivity using Computer Vision & NLP
 
-FocusMate
-=======
+ Features:
+ Real-time attention detection via webcam
+ Gaze tracking, blink detection & head pose estimation
+ CNN-based classification (Focused / Distracted / Drowsy)
+ NLP-based text summarization
+ Question answering & MCQ generation
+ Productivity dashboard with focus analytics
+ Real-time alerts for low attention
+ 
+Tech Stack:
+| Category        | Tools Used                         |
+| --------------- | ---------------------------------- |
+| Language        | Python                             |
+| Computer Vision | OpenCV                             |
+| ML/DL           | TensorFlow, Keras                  |
+| NLP             | Transformers (Hugging Face), SpaCy |
+| Visualization   | Matplotlib / Dashboard tools       |
 
-React + Vite
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+How It Works:
+FocusMate captures live webcam input and analyzes facial features such as eye movement, blink rate, and head pose using OpenCV. These features are passed into a CNN model to classify user attention state. Simultaneously, NLP models process study materials to generate summaries, questions, and quizzes. A dashboard visualizes productivity insights and focus trends.
 
-Currently, two official plugins are available:
 
-@vitejs/plugin-react uses Babel (or oxc when used in rolldown-vite) for Fast Refresh
-@vitejs/plugin-react-swc uses SWC for Fast Refresh
-React Compiler
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see this documentation.
-
-Expanding the ESLint configuration
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the TS template for information on how to integrate TypeScript and typescript-eslint in your project.
-
-64d48d6 (frontend added)
