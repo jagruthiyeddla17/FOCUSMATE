@@ -1,13 +1,13 @@
-FocusMate – AI-Based Real-Time Attention & Study Support System
+FocusMate – AI-Based Real-Time Attention & Study Support System: 
   AI-powered virtual study assistant that tracks attention and enhances learning productivity using Computer Vision & NLP
 
  Features:
- Real-time attention detection via webcam
- Gaze tracking, blink detection & head pose estimation
- CNN-based classification (Focused / Distracted / Drowsy)
- NLP-based text summarization
- Question answering & MCQ generation
- Productivity dashboard with focus analytics
+ Real-time attention detection via webcam,
+ Gaze tracking, blink detection & head pose estimation,
+ CNN-based classification (Focused / Distracted / Drowsy),
+ NLP-based text summarization,
+ Question answering & MCQ generation,
+ Productivity dashboard with focus analytics and
  Real-time alerts for low attention
  
 Tech Stack:
