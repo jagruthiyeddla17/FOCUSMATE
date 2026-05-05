@@ -1,0 +1,27 @@
+fastapi
+uvicorn[standard]
+python-multipart
+
+opencv-python
+numpy
+pandas
+pillow
+
+gTTS
+python-dotenv
+
+pyjwt
+passlib[bcrypt]
+
+PyPDF2
+
+# HuggingFace + transformers
+transformers
+sentencepiece
+accelerate
+
+# PyTorch CPU (safe)
+torch
+
+matplotlib
+scikit-learn
